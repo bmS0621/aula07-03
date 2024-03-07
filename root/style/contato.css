@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#Titulo-Principal{
+    color: rgb(235, 235, 235);
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(../img/dowload.jpg);
+    width: 100%;
+    border-bottom: 2px solid #ffffff;
+    text-align: center;
+}
+
+#primeiro-paragrafo{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid #333333;
+    font-size: 50px;
+    text-align: center;
+}
+
+#container{
+    background-color: #707070;
+    height: 100vh;
+}
+
+#foto-do-pai{
+    text-align: center;
+    padding-top: 10px;
+    border-bottom: 1px solid #333333;
+    background-image: url(../img/dowload.jpg);
+
+}
+
+#legenda-minha{
+    font-style: italic;
+    color: #ffffff;
+
+}
+
+#minhaFoto-id{
+    border-radius: 50%;
+}

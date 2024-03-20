@@ -147,7 +147,7 @@ header {
     text-decoration: none;
 }
 
-footer{
+footer {
     background-image: url(../img/images.png);
     background-size: 50%;
     clear: both;
@@ -176,7 +176,7 @@ footer .container-footer {
     background-size: contain;
 }
 
-.social a{
+.social a {
     height: 32px;
     width: 32px;
     display: block;
@@ -188,7 +188,102 @@ footer .container-footer {
     margin-left: 25px;
 }
 
-.img-footer{
+.img-footer {
     height: 50px;
     width: 50px;
+}
+
+.menu-opcoes a:hover {
+    color: #007dc6
+}
+
+.menu-opcoes a:active {
+    color: #867dc6
+}
+
+.menu-conteudo li ul {
+    display: none;
+}
+
+.menu-conteudo li:hover ul {
+    display: block;
+}
+
+.menu-conteudo ul ul li {
+    background-color: #dcdcdc;
+}
+
+.menu-conteudo li li a:before {
+    content: '- ';
+}
+
+:not(p)+p:first-line {
+    font-variant: small-caps
+}
+
+.busca,
+.menu-conteúdo {
+    background-color: #dcdcdc;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    width: 230px;
+    float: left;
+}
+
+.busca h2,
+.busca form,
+.menu-conteudo h2 {
+    margin: 10px;
+}
+
+.menu-conteudo li {
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+
+.menu-conteudo a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.menu-conteudo {
+    clear: left;
+}
+
+.busca input {
+    vertical-align: middle;
+}
+
+.busca input[type=search] {
+    width: 170px;
+}
+
+.destaque {
+    margin-top: 10px;
+}
+
+.menu-conteudo {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.painel li:hover {
+    box-shadow: 0 0 5px #333; 
+    transition: box-shadow 0.7s;
+}
+
+.painel li:hover {
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 0 0 5px #333;
+    transition: 0.7s;
+}
+
+.painel li:hover {
+    transform: scale(1.2);
+}
+
+.painel li:hover {
+    transform: scale(1.2)rotate(-5deg);
 }
